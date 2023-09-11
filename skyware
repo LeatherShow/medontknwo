@@ -1,0 +1,9 @@
+local DiscordInvite = loadstring(game:HttpGet("https://raw.githubusercontent.com/LeatherShow/SkyWare/main/Dis?token=GHSAT0AAAAAACHNRGBNC2257WIPT327YBRSZH656VA"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SmokeXDev/SmokeXClient/main/Resources/BlacklistLoader.lua", true))()
+DiscordInvite.Join("d5UbZbUC")
+local Success, Error = pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/SmokeXDev/SmokeXClient/main/Games/"..game.PlaceId..".lua", true))() end)
+if Success then
+    -- Loaded
+elseif Error then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LeatherShow/SkyWare/main/SMTH?token=GHSAT0AAAAAACHNRGBN27FCNC7FCR4QGEKQZH652RQ", true))()
+end
